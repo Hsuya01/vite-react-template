@@ -1,0 +1,33 @@
+.ReadPosts {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.postLink {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+.postLink:hover {
+    text-decoration: none;
+  }
+
+.sortOptions {
+  margin-bottom: 15px;
+  background-color: inherit;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.sortOptions label {
+  font-weight: bold;
+}
+
+.sortOptions select {
+  padding: 5px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
